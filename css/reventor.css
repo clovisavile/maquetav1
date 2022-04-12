@@ -1,0 +1,127 @@
+/*
+font-family: 'Open Sans', sans-serif; 
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: azure;
+}
+
+header {
+  background-color: black;
+  padding: 1em;
+}
+
+nav {
+  background-color: rgb(170, 0, 0);
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 16.3%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+  background-color: rgb(230, 0, 0);
+}
+
+footer {
+  background-color: rgb(59, 59, 59);
+  clear: both;
+  color: rgb(255, 255, 255);
+  padding: 3em 0;
+  margin-top: 2em;
+  text-align: center;
+}
+
+nav ul li a.activo {
+  background-color: rgb(250, 0, 0);
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* home inicio */
+
+.bienvenidos {
+  padding-right: 20px;
+
+}
+.introduccion{
+  font-size: large;
+}
+.redes{
+  font-size: 30px;
+}
+
+/* home fin */
+
+/* fechas inicio */
+
+.fecha{
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+}
+.fecha .infofecha {
+  width: 75%;
+}
+
+.fecha .infofecha h4{
+  color: rgb(255, 0, 0);
+  font-size: 1,2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.5em;
+}
+
+.fecha .infofecha p{
+  font-size: 0.8;
+  line-height: 1.2em;
+
+}
+.fecha img{
+  border-radius: 0.8em;
+}
+
+.fecha:nth-child(even) img{
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.fecha:nth-child(even) .infofecha{
+  float:left;
+}
+
+.fecha:nth-child(odd) img{
+  float: left;
+  margin: 0 1em 0 0;
+
+}
+.fecha:nth-child(odd) .infofecha{
+  float: right;
+}
+
+/* fechas fin */
