@@ -168,11 +168,16 @@ nav ul li a.activo {
 }
 
 .columna.right p {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .columna.right ul li {
   font-size: 0.8em;
+}
+
+.right {
+  float: right;
+  position: relative;
 }
 
 .formulario label {
@@ -196,17 +201,25 @@ nav ul li a.activo {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   color: white;
   font-size: 1em;
-  width: auto;
-  cursor: pointer;
+  width: 20%;
+}
+
+.acciones {
+  width: 20%;
+  float: right;
+  padding-right: 40%;
+
 }
 
 .formulario textarea {
   height: 10em;
-  resize: none;
+  resize:vertical;
 }
 
 .formulario .acciones {
   text-align: center;
 }
+
+
 
 /* fin contacto */
