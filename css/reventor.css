@@ -4,7 +4,7 @@ font-family: 'Open Sans', sans-serif;
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: black;
+  background-color: rgb(21, 21, 21);
   color: azure;
 }
 
@@ -156,6 +156,98 @@ nav ul li a.activo {
 
 /* inicio contacto */
 
+.fecha {
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.fecha .infofecha {
+  width: 50%;
+}
+
+.fecha .infofecha h4 {
+  color: rgb(255, 0, 0);
+  font-size: 1, 2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.5em;
+}
+
+.fecha .infofecha p {
+  font-size: 0.8;
+  line-height: 1.2em;
+
+}
+
+.fecha img {
+  border-radius: 0.8em;
+}
+
+.fecha:nth-child(even) img {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.fecha:nth-child(even) .infofecha {
+  float: left;
+}
+
+.fecha:nth-child(odd) img {
+  float: left;
+  margin: 0 1em 0 0;
+
+}
+
+.fecha:nth-child(odd) .infofecha {
+  float: right;
+}
+
+/* fechas fin */
+
+/* inicio galeria */
+
+.galeria .foto {
+  float: left;
+  width: 30%;
+  margin: 1em 0 1em 2.5%;
+  border: 1px solid #ddd;
+  padding: 0.3em;
+  box-sizing: border-box;
+}
+
+.galeria .foto img {
+  width: 100%;
+  display: block;
+}
+
+/* .galeria .foto:nth-child(5n+1){
+  margin-left:0;
+} */
+
+
+/* fin galeria */
+
+/* inicio contacto */
+
+.right{
+  float: right;
+  width:50%;
+  text-align: center;
+  list-style-position:initial;
+  font-size: x-large
+}
+
+.left {
+  float: left;
+  width:50%;
+  text-align: center;
+}
+
 .columna {
   width: 50%;
   box-sizing: border-box;
@@ -220,6 +312,9 @@ nav ul li a.activo {
   text-align: center;
 }
 
+.icono {
+  background-color: red;
+}
 
 
 /* fin contacto */
